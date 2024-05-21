@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> Security Handbook Website </title>
+    <link rel="stylesheet" type="text/CSS" href="style.css"/>
+</head>   
+<body> 
+	<section class= "header">
+		<nav>
+			<div class= "nav-links">
+				<ul>
+				<li><a href="intro.html">Introduction</a></li>
+				<li><a href="security.html">Security Handbook</a></li>
+				</ul>
+			</div
+
+
+		</nav>
+
+	</section>
+			
+<div id="layout">
+<div id="t-header">
+	<div id="t-book">
+	<h1>SECURITY HANDBOOK </h1>
+	</div>
+	</div>
+
+	<div id="left-box">
+			<div id='toc'></div>
+			<article>
+		<p> Company employees, contractors, consultants and temporary staff (Trusted Parties) are required to handle information, whether physical, electronic or verbal, in accordance with Security Policy and the following rules and principles. You are expected to act ethically and according to local laws when representing the company.</p>
+		<br>
+		<h3 id="h-1">1. Responsibility</h3>
+		<p>If you are granted access to company’s systems, it is your responsibility to familiarise yourself with the security policies and comply with the relevant requirements of it. Your manager is responsible for identifying the requirements relevant to you and your area of responsibility. </p>
+		<br>
+		<h3 id="h-2">2. Security at company premises </h3>
+		<p>You should only use the main entrance, which is the door leading directly outside. You must keep good care of your key. Do not lend your key to anyone or let others into company premises without valid access right. Do not keep your key visible outside company premises. Guests must always be accompanied by a trusted party and not be allowed to walk freely on company premises. 
+		Do not leave any windows or access-controlled doors, or doors generally unlocked.</p>
+		<br>
+		<h3 id="h-3">3. Confidentiality</h3>
+		<p>You must handle all company owned and governed information with discretion and care. This means You should not attempt to access or use information, systems, or networks you do not need for your assigned work. Do not store company information in cloud-, or other solutions unless the solution is approved by the company for the intended use. 
+		When sharing information with others, make sure that there is a valid business reason for it. Before sharing information with non-employees verify that they have signed a non-disclosure or confidentiality agreement. 
+		Avoid taking pictures, videos, recordings, and such on company premises. Only do so after careful consideration of the potential undesired impact if the contents is leaked.</p>
+		<br>
+		<h3 id="h-4">4. Clean desk</h3>
+		<p>Company has a clean desk policy. Securely dispose of unnecessary paper-and other hard copies. Store confidential information in locked drawers, cabinets, or the like to prevent unauthorised access. Clean whiteboards and remove papers from flipcharts after meetings.</p>
+		<br>
+		<h3 id="h-5">5. Identity and access</h3>
+		<p>You must safeguard your personal access rights and authentication information, such as passwords and pins, and not share them. Authentication information used to access company’s IT systems must not be re-used for non-employers governed services (e.g. social media or personal e-mail). You are allowed to store passwords related to your work only to a secure password storage solution approved by the company. You are solely and fully responsible for all actions performed by your company’s user account. Digital traces from your actions may be traced back to you as an individual, in accordance with GDPR and local legislation.</p>
+		<br>
+		<h3 id="h-6">6. IT equipment and software</h3>
+		<p>Never connect equipment to company managed equipment or to the internal network without appropriate approval. Company’s guests may use guest network. You may only install or download software approved by the company, and even then, only if you are authorized to do so. 
+		To access company data on a mobile device (e.g. phone, tablet) the device must be enrolled to company corporate Mobile Device Management system. You are allowed to process company data on a mobile device only in apps managed by the company Mobile Device Management system. 
+		Software and equipment provided by the company are company’s property and should be handled with care and not lent to others (including family members). Same care must be used with mobile devices containing company data. You must log-off or lock your computer and mobile device whenever you leave it.</p>
+		<br>
+		<h3 id="h-7" >7. Handling company information and equipment outside company premises</h3>
+		<p>You must protect company information and equipment (e.g. mobile devices, laptops, USB sticks and such) against theft and unauthorised access outside company premises. You can achieve this by e.g. constantly supervising equipment and documents containing company information, carrying them as hand luggage or storing them in locked rooms. Also, keep conversations private, use privacy filter on your computer screen and show general vigilance to your surroundings. 
+		Before going on a company business trip, familiarise yourself with the travel security guidelines.</p>
+		<br>
+		<h3 id="h-8" >8. Use of e-mail and Internet</h3>
+		<p>You must minimise private use of Internet and e-mail on company equipment. Do not use company accounts or equipment to deliberately access sites with inappropriate, unethical or illegal content.</p>
+		<br>
+		<h3 id="h-9" >9. Security monitoring and logging</h3>
+		<p>There is security monitoring and logging of company IT systems. However, company respects the privacy of the individual, and special situations in which company may need to access a user’s email account or other information created and stored by the user will be handled in accordance with local laws and regulations.</p>
+		<br>
+		<h3 id="h-10" >10. Report security incidents</h3>
+		<p>Security incidents or suspected security incidents, e.g. unauthorised access to system or information theft, must be reported promptly to head of the company.  If you lose company equipment, contact head of the company immediately. If any items stated in this document are unclear to you, contact your manager for more information. 
+
+
+		</p><br>
+		<h3 id="h-11" >11. Reference on PCI DSS</h3>
+		<ol>
+			x<li>Build and maintain a Secure network and System</li>
+				<h7>1	Install and maintain a firewall configuration to protect cardholder data</h7><br>
+				<p class="pcidss">i.	Establish and implement firewall and router configuration standards<br>
+					ii.	Build firewall and router configurations that restrict connections between untrusted networks and any system components in the cardholder data environment.<br>
+					iii.	Prohibit direct public access between the Internet and any system component in the cardholder data environment.<br>
+					iv.	Install personal firewall software or equivalent functionality on any portable computing devices (including company and/or employee-owned) that connect to the Internet when outside the network (for example, laptops used by employees), and which are also used to access the CDE<br>
+					v.	Ensure that security policies and operational procedures for managing firewalls are documented, in use, and known to all affected parties.<br>
+				</p><br>
+				<h7>2	Do not use vendor-supplied defaults for system passwords and other security parameters</h7><br>
+				<p class="pcidss">i.	Always change vendor-supplied defaults and remove or disable unnecessary default accounts before installing a system on the network<br>
+					ii.	Develop configuration standards for all system components. Assure that these standards address all known security vulnerabilities and are consistent with industry-accepted system hardening standards.<br>
+					iii.	Encrypt all non-console administrative access using strong cryptography.<br>
+					iv.	Ensure that security policies and operational procedures for managing vendor defaults and other security parameters are documented, in use, and known to all affected parties<br>
+					v.	Shared hosting providers must protect each entity’s hosted environment and cardholder data<br>
+					
+
+				</p><br>
+			<li>Protect Cardholder data</li>
+				<h7>1	Protect stored cardholder data</h7><br>
+				<p class="pcidss">
+					i.	Keep cardholder data storage to a minimum by implementing data retention and disposal policies, procedures and processes<br>
+					ii.	Do not store sensitive authentication data after authorization (even if encrypted). If sensitive authentication data is received, render all data unrecoverable upon completion of the authorization process.<br>
+					iii.	Mask PAN when displayed (the first six and last four digits are the maximum number of digits to be displayed), such that only personnel with a legitimate business need can see more than the first six/last four digits of the PAN<br>
+					iv.	Render PAN unreadable anywhere it is stored (including on portable digital media, backup media, and in logs)<br>
+					v.	Document and implement procedures to protect keys used to secure stored cardholder data against disclosure and misuse<br>
+					vi.	Fully document and implement all key management processes and procedures for cryptographic keys used for encryption of cardholder data<br>
+				</p><br>
+				<h7>2	Encrypt transmission of cardholder data across open, public networks</h7><br>
+				<p class="pcidss">	
+					i.	Use strong cryptography and security protocols to safeguard sensitive cardholder data during transmission over open, public networks<br>
+					ii.	Never send unprotected PAN by end-user messaging technologies<br>
+				</p<br>
+			<li>Maintain a vulnerability Management System Program</li>
+				<h7>1	Protect all systems against malware and regularly update anti-virus software or programs</h7><br>
+				<p class="pcidss">i.	Deploy anti-virus software on all systems commonly affected by malicious software (particularly personal computers and servers).<br>
+					ii.	Ensure that all anti-virus mechanisms are maintained<br>
+					iii.	Ensure that anti-virus mechanisms are actively running and cannot be disabled or altered by users, unless specifically authorized by management on a case-by-case basis for a limited time period<br>
+					iv.	Ensure that security policies and operational procedures for protecting systems against malware are documented, in use, and known to all affected parties.<br>
+					
+
+				</p>
+				<h7>2	Develop and maintain secure systems and applications</h7><br>
+				<p class="pcidss">
+					i.	Establish a process to identify security vulnerabilities, using reputable outside sources for security vulnerability information, and assign a risk ranking (for example, as “high,” “medium,” or “low”) to newly discovered security vulnerabilities. <br>
+					ii.	Ensure that all system components and software are protected from known vulnerabilities by installing applicable vendor supplied security patches. Install critical security patches within one month of release. <br>
+					iii.	Develop internal and external software applications (including web-based administrative access to applications) securely<br>
+					iv.	Follow change control processes and procedures for all changes to system components<br>
+					v.	Address common coding vulnerabilities in software-development processes<br>
+					vi.	For public-facing web applications, address new threats and vulnerabilities on an ongoing basis and ensure these applications are protected against known attacks<br>
+					vii.	Ensure that security policies and operational procedures for developing and maintaining secure systems and applications are documented, in use, and known to all affected parties. <br>
+
+				</p>
+			<li>Regularly Monitor and Test networks</li>
+				<h7>1	Track and monitor all access to network resources and cardholder data</h7><br>
+				<p class="pcidss">
+					i.	Implement audit trails to link all access to system components to each individual user. <br>
+					ii.	Implement automated audit trails for all system components<br>
+					iii.	Record at least the following audit trail entries for all system components<br>
+					iv.	Using time-synchronization technology, synchronize all critical system clocks and times and ensure that the following is implemented for acquiring, distributing, and storing time. <br>
+					v.	Secure audit trails so they cannot be altered<br>
+					vi.	Review logs and security events for all system components to identify anomalies or suspicious activity. <br>
+					vii.	Retain audit trail history for at least one year, with a minimum of three months immediately available for analysis (for example, online, archived, or restorable from backup). <br>
+					viii.	Additional requirement for service providers only: Implement a process for the timely detection and reporting of failures of critical security control systems<br>
+
+				</p>
+				<h7>2	Regularly test security systems and processes</h7><br>
+				<p class="pcidss">
+					i.	Implement processes to test for the presence of wireless access points (802.11) and detect and identify all authorized and unauthorized wireless access points on a quarterly basis. <br>
+					ii.	Run internal and external network vulnerability scans at least quarterly and after any significant change in the network (such as new system component installations, changes in network topology, firewall rule modifications, product upgrades). <br>
+					iii.	Implement a methodology for penetration testing<br>
+					iv.	Use intrusion-detection and/or intrusion-prevention techniques to detect and/or prevent intrusions into the network. Monitor all traffic at the perimeter of the cardholder data environment as well as at critical points in the cardholder data environment, and alert personnel to suspected compromises. Keep all intrusion-detection and prevention engines, baselines, and signatures up to date<br>
+					v.	Deploy a change-detection mechanism (for example, file-integrity monitoring tools) to alert personnel to unauthorized modification (including changes, additions, and deletions) of critical system files, configuration files, or content files; and configure the software to perform critical file comparisons at least weekly<br>
+					vi.	Ensure that security policies and operational procedures for security monitoring and testing are documented, in use, and known to all affected parties. <br>
+
+				</p><br>
+
+		</ol>
+
+	
+	</div>
+	<div id="right-box">
+	<! --- something like this for the list index? added links to headers? --- >
+	<div id="list-index">
+	<h3>Table of Content</h3>
+	
+	<ol>
+		<li>
+			<a href="#h-1">Responsibility</a>
+		</li>
+		<li>
+			<a href="#h-2">Security at company premises</a>
+		</li>
+		<li>
+			<a href="#h-3">Confidentiality </a>
+		</li>
+		<li>
+			<a href="#h-4">Clean desk</a>
+		</li>
+		<li>
+			<a href="#h-5">Identity and access</a>
+		</li>
+		<li>
+			<a href="#h-6">IT equipment and software</a>
+		</li>
+		<li>
+			<a href="#h-7">Handling company information and equipment outside company premises</a>
+		</li>
+		<li>
+			<a href="#h-8">Use of e-mail and Internet</a>
+		</li>
+		<li>	
+			<a href="#h-9">Security monitoring and logging</a>
+		</li>
+		<li>
+		<a href="#h-10">Report security incidents</a>
+		</li>
+		<li>
+		<a href="#h-11">Reference on PCI DSS</a>
+		</li>
+	</ol>
+	</div>
+	</div>
+	
+</div>
+</body>
+</html>
